@@ -1,0 +1,20 @@
+# Personal
+private.py
+
+# Data
+data/
+
+# Jupyter Notebook
+*.ipynb_checkpoints/
+*.ipynb
+!01_load_fundamental_example.ipynb
+!02_load_technical_example.ipynb
+
+# Python
+__pycache__/
+
+# vscode
+.vscode/
+
+# Mac
+.DS_Store
