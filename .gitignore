@@ -7,8 +7,7 @@ data/
 # Jupyter Notebook
 *.ipynb_checkpoints/
 *.ipynb
-!01_load_fundamental_example.ipynb
-!02_load_technical_example.ipynb
+!01_example.ipynb
 
 # Python
 __pycache__/
