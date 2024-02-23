@@ -56,8 +56,6 @@ class Controller:
 
         resp = requests.post(url, headers=headers, data=json.dumps(data))
         resp_data = resp.json()
-        print(resp_data)
-
         # add extra information for the token verification
         now = datetime.datetime.now()
         resp_data["timestamp"] = int(now.timestamp()) + resp_data["expires_in"]
